@@ -1,0 +1,48 @@
+What is Javascript?
+-------------------
+I think of JavaScript as the communication bridge between the user and the website. The user performs an action, JavaScript listens to it, processes it, and tells the website how to respond. For example, when we click a 'Submit' button, JavaScript can validate the data, call an API, and display the result without reloading the page.
+
+   -> HTML provides the structure of the webpage.
+   -> CSS controls the appearance and styling.
+   -> JavaScript controls the behavior and interactivity.
+
+How does JavaScript run in the browser?
+---------------------------------------
+   -> Browser downloads HTML, CSS, and JavaScript when the webpage loads.
+
+   -> The browser passes JavaScript code to the JavaScript Engine (e.g., V8 in Chrome).
+
+   -> The JavaScript Engine reads the code, converts it into machine-understandable instructions, and executes it.
+
+   -> JavaScript registers event listeners and waits for user actions such as   clicks, typing, or form submissions.
+
+   -> When an event occurs, the browser notifies JavaScript.
+
+   -> JavaScript executes the corresponding code and updates the webpage.
+
+   -> Example: On clicking a Login button, JavaScript can validate data, call an API, and display the response without reloading the page.
+
+   -> JavaScript acts as a communication bridge between the user and the website.
+
+   -> The browser does not execute JavaScript directly; the JavaScript Engine translates and executes the code.
+
+What is a JavaScript Engine?
+----------------------------
+-> A JavaScript Engine is a program inside the browser that reads, converts, and executes JavaScript code.
+
+-> The computer cannot understand JavaScript directly. The JavaScript Engine acts as a translator between JavaScript code and the computer.
+
+-> How it works
+                   JavaScript Code
+                         ↓
+                   JavaScript Engine
+                         ↓
+                     Machine Code
+                         ↓
+                   Computer Executes It
+
+Popular Javascript Engines - V8 in Chrome, Opera and Edge
+                           - Spidermonkey in firefox
+  
+  
+ES - Ecma Script

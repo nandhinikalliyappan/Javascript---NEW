@@ -1,0 +1,99 @@
+
+# Why Should We Not Keep Large JavaScript Code Inside HTML?
+
+## The Problem
+
+Imagine your website has 10 pages.
+
+If you write the same JavaScript code inside each HTML page:
+
+- The browser downloads the JavaScript every time it downloads the HTML page.
+- The same code gets repeated on multiple pages.
+- If you need to make a change, you may have to update several HTML files.
+- The HTML file becomes large and difficult to read.
+
+---
+
+## Why Use a Separate JavaScript File?
+
+Example:
+
+<script src="app.js"></script>
+
+When the browser downloads app.js:
+
+1. It stores the file in cache.
+2. When another page uses the same file, the browser checks the cache first.
+3. If the file hasn't changed, it uses the cached version.
+4. This makes the website load faster and saves bandwidth.
+
+---
+
+## What Are Hash Names?
+
+Normally, a JavaScript file may be named:
+
+app.js
+
+In modern applications, it may look like:
+
+app.a4f7c2.js
+
+After a code change:
+
+app.b8k9d1.js
+
+Why?
+
+- The changed filename tells the browser that a new version exists.
+- The browser downloads the new file.
+- If the filename stays the same, the browser can continue using the cached version.
+
+---
+
+## Can We Write JavaScript Inside HTML?
+
+Yes, absolutely.
+
+Example:
+
+<script>
+    console.log("Hello");
+</script>
+
+This works perfectly fine.
+
+However:
+
+- The JavaScript becomes part of the HTML file.
+- It cannot be cached separately.
+- The same code may be downloaded repeatedly.
+- The code becomes harder to maintain as the project grows.
+
+---
+
+## Advantages of Using Separate .js Files
+
+✅ Better caching
+
+✅ Faster page loading
+
+✅ Reusable code across multiple pages
+
+✅ Easier maintenance
+
+✅ Cleaner and more organized code
+
+✅ Better scalability for large projects
+
+---
+
+## Conclusion
+
+Writing JavaScript inside <script> tags is fine for:
+
+- Small scripts
+- Learning purposes
+- Quick testing
+
+For real-world applications, it is recommended to keep JavaScript in separate .js files because it improves performance, maintainability, and code organization.

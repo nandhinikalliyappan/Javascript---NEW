@@ -1,0 +1,1 @@
+console.log("adding js external js file");

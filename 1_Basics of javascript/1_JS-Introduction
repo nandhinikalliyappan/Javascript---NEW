@@ -9,18 +9,13 @@ I think of JavaScript as the communication bridge between the user and the websi
 How does JavaScript run in the browser?
 ---------------------------------------
 
-   -> Runs on any devce that has Javascript engine.
-   -> Browser downloads HTML, CSS, and JavaScript when the webpage loads.
-
-   -> The browser passes JavaScript code to the JavaScript Engine (e.g., V8 in Chrome).
-
-   -> The JavaScript Engine reads the code, converts it into machine-understandable instructions, and executes it.
-
-   -> JavaScript registers event listeners and waits for user actions such as   clicks, typing, or form submissions.
-
-   -> When an event occurs, the browser notifies JavaScript.
-
-   -> JavaScript executes the corresponding code and updates the webpage.
+   -> When a webpage loads, the browser downloads the HTML, CSS, and JavaScript files. As it parses the HTML, it encounters the JavaScript code and passes it to the JavaScript Engine (such as V8 in Chrome). 
+   
+   -> The JavaScript Engine reads, compiles, and executes the code.
+   
+   -> During execution, JavaScript can register event listeners and wait for user interactions such as clicks, typing, or form submissions. 
+   
+   -> When an event occurs, the browser notifies JavaScript, which executes the corresponding code, updates the DOM, makes API calls if needed, and dynamically updates the webpage without requiring a full page reload. This is how JavaScript makes websites interactive and dynamic.
 
    -> Example: On clicking a Login button, JavaScript can validate data, call an API, and display the response without reloading the page.
 

@@ -1,0 +1,50 @@
+    # Why is Node.js Used to Execute JavaScript Files?
+
+## The Problem
+
+JavaScript was originally designed to run inside browsers. Browsers like Chrome already have a JavaScript Engine (V8) that can understand and execute JavaScript code.
+
+When we create a JavaScript file (app.js) outside the browser, there is no browser available to execute it.
+
+So the question becomes:
+
+"Who will execute the JavaScript file?"
+
+## The Solution
+
+Node.js provides a runtime environment that allows JavaScript to run outside the browser.
+
+It contains the V8 JavaScript Engine, which reads, compiles, and executes JavaScript code.
+
+## What Happens When We Run a JavaScript File?
+
+Command:
+
+node app.js
+
+Execution Flow:
+
+1. Node.js starts running.
+2. Node.js reads the app.js file.
+3. Node.js passes the JavaScript code to the V8 Engine.
+4. V8 converts the JavaScript code into machine code.
+5. The CPU executes the machine code.
+6. The output is displayed.
+
+## Why Not Use V8 Directly?
+
+V8 can execute JavaScript, but it cannot interact with the operating system on its own.
+
+Node.js provides additional features such as:
+
+* File System (fs)
+* HTTP Server (http)
+* Operating System APIs (os)
+* Network Communication
+
+These features allow JavaScript to build servers, read files, connect to databases, and perform many backend tasks.
+
+## Conclusion
+
+Node.js is used to execute JavaScript files outside the browser. It provides a runtime environment that uses the V8 JavaScript Engine to execute JavaScript code and offers additional APIs to interact with the operating system, files, and networks.
+

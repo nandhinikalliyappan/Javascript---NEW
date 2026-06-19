@@ -1,1 +1,1 @@
-console.log("adding js external js file");
+console.log("adding  external js file");

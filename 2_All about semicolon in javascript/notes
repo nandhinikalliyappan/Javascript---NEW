@@ -1,0 +1,42 @@
+JavaScript Semicolon (;) and Automatic Semicolon Insertion (ASI)
+---------------------------------------------------------------
+
+-> A semicolon (;) is used to mark the end of a JavaScript statement.
+
+-> Unlike languages such as C++ and Java, where semicolons are mandatory, JavaScript allows semicolons to be omitted in most cases.
+
+-> This is possible because JavaScript uses a mechanism called Automatic Semicolon Insertion (ASI).
+
+-> ASI automatically inserts semicolons in certain situations when they are omitted.
+
+-> The primary purpose of a semicolon is to tell the JavaScript engine where one statement ends and the next begins.
+
+-> ASI works best when statements are written on separate lines.
+
+Example:
+
+let name = "John"
+console.log(name)
+
+JavaScript interprets it as:
+
+let name = "John";
+console.log(name);
+
+-> If multiple statements are written on the same line, semicolons are required to separate them.
+
+Incorrect:
+
+alert("First") alert("Second")
+
+Correct:
+
+alert("First"); alert("Second");
+
+-> Although semicolons are optional in many cases, using them explicitly is considered a good practice.
+
+Benefits:
+   - Improves readability.
+   - Clearly separates statements.
+   - Prevents unexpected behavior caused by ASI.
+   - Makes code more consistent.

@@ -97,3 +97,6 @@ Writing JavaScript inside <script> tags is fine for:
 - Quick testing
 
 For real-world applications, it is recommended to keep JavaScript in separate .js files because it improves performance, maintainability, and code organization.
+
+
+note - The order of script tags is important. The script that appears first executes first.

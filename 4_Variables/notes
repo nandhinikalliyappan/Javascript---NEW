@@ -38,8 +38,7 @@ let age;
 
 ### 2. Initialization
 
-Giving a variable its first value.
-
+Assigning value to the variable for the first time. 
 age = 25;
 
 ### 3. Assignment

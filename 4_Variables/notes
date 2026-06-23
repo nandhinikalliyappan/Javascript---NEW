@@ -1,0 +1,82 @@
+# Variables in JavaScript
+
+## What is a Variable?
+
+A variable is a named container used to store data in memory so that it can be used and modified 
+later in the program.
+
+Example:
+
+let name = "Nandhini";
+
+Here:
+
+* `name` is the variable name.
+* `"Nandhini"` is the value stored in the variable.
+
+---
+
+## Why Do We Need Variables?
+
+Without variables, we would have to repeat values throughout the program.
+
+Variables allow us to:
+
+* Store data
+* Reuse data
+* Update data when needed
+
+---
+
+## Important Terms
+
+### 1. Declaration
+
+Creating a variable.
+
+let age;
+
+### 2. Initialization
+
+Giving a variable its first value.
+
+age = 25;
+
+### 3. Assignment
+
+Assigning or updat-8ing a value to a variable.
+
+age = 30;
+
+### 4. Declaration + Initialization
+
+Both can be done together.
+
+let age = 25;
+
+---
+
+Multiple Variables: You can declare or initialize multiple variables at once by separating them with commas 
+(e.g., let a = 1, b = 2;)
+
+## Reassignment
+
+let age = 25;
+age = 26;
+
+Valid because `let` allows reassignment.
+
+---
+
+## Redeclaration
+
+let age = 25;
+let age = 26;
+
+Not allowed because `let` does not allow redeclaration in the same scope.
+
+---
+
+## Key Point
+
+A variable is a named storage location in memory used to store, access, and update data during program execution.

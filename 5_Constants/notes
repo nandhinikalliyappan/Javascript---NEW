@@ -1,0 +1,16 @@
+  -> Constants are used to store values that should not change throughout the program. 
+   They provide a way to define fixed values that can be referenced multiple times without the risk of accidental reassignment.
+
+General Convention
+------------------
+
+-> Use camelCase for regular const variables:
+
+         const userName = "Nandhini";
+         const totalPrice = 500;
+
+-> Use UPPER_SNAKE_CASE for values that are true constants/configuration values:
+
+        const PI = 3.14;
+        const MAX_RETRIES = 3;
+        const API_URL = "https://api.example.com";

@@ -17,7 +17,7 @@ bookName = "To Kill a Mockingbird";
 
 console.log("Updated Book Name: " + bookName);
 
-/*Rules for naming variables in JavaScript:
+/* Rules for naming variables in JavaScript:
 1. Variable names can contain letters, digits, underscores, and dollar signs.
 2. Variable names must begin with a letter, underscore, or dollar sign. 
 3. Variable names are case-sensitive ex. `bookName` and `BookName` are different variables.
